@@ -1,0 +1,132 @@
+body {
+    background-image: url("../images/achtergrond.png");
+    background-repeat: no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;    
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 12px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#generator {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 448px;
+    width: 280px;
+    z-index: 999;
+}
+
+#pannenkoek {
+    position: fixed;
+    bottom: 12%;
+    left: 43%;
+   
+}
+
+#personage-container {
+    position: fixed;
+    right: -7%;
+    bottom: 3%;
+    width: 230px; 
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#personage {
+    width: 100%; 
+    height: 322px;
+}
+
+#tekstballon-container {
+    position: absolute;
+    top: -80px;
+    right: 240px;
+    width: 150px;
+}
+
+#tekstballon {
+    width: 150%;
+}
+
+#tekstballon-text {
+    position: absolute;
+    top: 13px;
+    left: 17px;
+    width: 200px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+button {
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    padding: 5px 15px;
+    background-image: linear-gradient(#2EBB1B, #2DFF08, #2EBB1B);
+    border-color: #18BC00;
+    font-family: "Abril Fatface", serif;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 5px;
+    cursor: pointer;
+}
+
+#scorebord {
+    position: fixed;
+    top: 35px;
+    right: 665px;
+    font-family: "Abril Fatface", serif;
+    font-size: 40px;
+    color: #D8D5D1;
+    
+}
+
+#score {
+    position: fixed;
+    top: 90px;
+    left: 670px;
+    font-family: "Abril Fatface", serif;
+    font-size: 60px;
+    color: #D8D5D1;
+
+}
